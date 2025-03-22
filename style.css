@@ -1,0 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    background-image: url('gothic-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #e6004c;
+    margin-bottom: 20px;
+}
+
+p.note {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    color: #ccccff;
+    max-width: 700px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 25px;
+    font-size: 1em;
+    background-color: #660033;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #990033;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #990033;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #e6004c;
+    border-radius: 10px;
+}
+
+.timeline {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    color: #ccc;
+}
+
+.timeline .event {
+    margin-bottom: 20px;
+    border-left: 3px solid #e6004c;
+    padding-left: 10px;
+}
